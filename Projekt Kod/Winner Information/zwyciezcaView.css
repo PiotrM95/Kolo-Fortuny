@@ -1,0 +1,22 @@
+body {
+    background-color: #202020;
+    color: #FFFFFF;
+    text-align: center;    
+}
+
+button {
+    width: 200px;
+    height: 80px;
+    background-color: #FF3300; 
+    font-size: 24px;
+    font-weight: 800;
+    color: #DDDDDD;
+    border-radius: 20px;
+}
+
+.winInformation {
+    font-size: 70px;
+    font-family: 'Comic Sans';
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
