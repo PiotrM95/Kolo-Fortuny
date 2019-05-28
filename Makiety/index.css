@@ -19,6 +19,15 @@ div{
 	font-size: 24px;
 }
 
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+button {
+	margin-bottom: 30px;
+}
+
 .button {
   display: inline-block;
   padding: 15px 25px;
@@ -32,6 +41,7 @@ div{
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
+  font-weight: 700;
 }
 
 .button:hover {background-color: #3e8e41}
