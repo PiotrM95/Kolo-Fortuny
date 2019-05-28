@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="Stylesheet" href="rejestracjaView.css">
+        <!-- <script src="script.js"></script> -->
+
+        <meta http-equiv="refresh" content="1000">
+        <meta charset="UTF-8">
+        <meta name="Author" content="Piotr Marczewski">     
+
+        <title>Kolo Fortuny</title>
+
+    </head>
+
+    <body>
+        <div class = "title">
+            Rejestracja
+        </div>
+        <div class = "tableData">
+            <table>
+                <tr>
+                    <td><div class = "login">Login </div></td>
+                    <td><input type="text" id="username" name="username"></td>  
+                </tr>
+
+                <tr>
+                    <td><div class = "password">Password</div></td>
+                    <td><input type="password" id="pass" name="password" minlength="8" required></td>
+                </tr>
+            </table>
+                
+        </div>
+            
+        <div class = "log">
+            <button type="button" id="logButton" onclick="registry()">Zarejestruj</button>
+        </div>      
+    </body>
+</html>
