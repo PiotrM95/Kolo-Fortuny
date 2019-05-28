@@ -1,0 +1,63 @@
+text{
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:11px;
+	pointer-events:none;
+}
+#chart{
+	position:absolute;
+	width:400px;
+	height:400px;
+	top:0;
+	right:0;
+}
+#top{
+	position: absolute;
+	top:50px;
+	left:50px;
+}
+#password{
+	position: relative;
+	top:50px;
+	left:50px;
+}
+#question h1{
+	font-size: 50px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	top:50%;
+	-webkit-transform:translate(0,-50%);
+			transform:translate(0,-50%);
+}
+#inputchar{
+	position: relative;
+	top:50px;
+	left:50px;
+}
+#letter{
+	width: 40px;
+}
+#letterFinalRound{
+	width: 80px;
+}
+#checkedLetters{
+	position: absolute;
+	bottom: 50px;
+	left: 50px;
+}
+#roundNumber{
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+}
+#answer{
+	position: relative;
+	top:50px;
+	left:50px;
+}
+#answerSubmit{
+	position: relative;
+	top: 10px;
+}
