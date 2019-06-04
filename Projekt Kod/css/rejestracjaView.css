@@ -1,0 +1,68 @@
+body {
+    background-color: #202020;
+    color: #FFFFFF;   
+}
+
+button {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    font-weight: 700;
+  }
+  
+  button:hover {background-color: #3e8e41}
+  
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+tr {
+    font-size: 24px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.log {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.tableData {
+    margin-top: 60px;
+}
+
+#username {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+#pass {
+    font-size: 24px;
+}
+
+.login {
+    margin-bottom: 30px;
+}
+
+.password {
+    margin-right: 10px;
+}
+
+.title {
+    font-size: 40px;
+    text-align: center;
+}
