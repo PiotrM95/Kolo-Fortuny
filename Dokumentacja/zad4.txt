@@ -1,10 +1,10 @@
 Wykorzystamy: baza danych MySQL, XAMPP
 
 Obiekt: Gracz
-Metody: wstawLitere(), krecKolem()
+Metody: wstawLitere(), krecKolem(), zaloguj(), zarejestruj()
 
 Obiekt: Haslo
 Metody: losujKategorie(), sprawdzCzyZawiera(), caleHaslo(), zmianaGracza()
 
-Obiekt: Runda()
-Metody: nastepnaRunda(), sprawdzCzyPiataRunda()
+Obiekt: Runda
+Metody: nastepnaRunda(), sprawdzCzyPiataRunda(), wyswietlWygranego()
